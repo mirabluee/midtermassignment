@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 228, 253);
+  }
+
+.heroimg {
+    background-image: url(IMG_5662.JPG);
+    background-size: cover;
+}
+
+.text-spring{
+  color:#fff
+
+}
+
+.btn-spring {
+    background-color: #3addf6;
+    color: #fff;
+}
+.btn-spring:hover {
+    background-color: #23aec3;
+    color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3addf6;
+    border-color: #3addf6;
+  }
+  .btn-primary:hover, .btn-primary:active:hover{
+    color: #fff;
+    background-color: #23aec3;
+    border-color: #23aec3;
+  }
+
+.card {
+    transition: all .4s; /* 動畫漸變 */
+}
+
+.card:hover {
+    box-shadow: 3px 3px 3px #cdcdcd; /* 往右移3px、下移3px、模糊3px、陰影的顏色 */
+    transform: translate(-3px, -3px) rotate(-1deg); /* 往左移3px、上移3px、逆時針旋轉1度 */
+}
